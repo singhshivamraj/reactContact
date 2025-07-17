@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.Toastify__toast {
+  background: black !important;
+  color: white !important;
+  font-weight: 500;
+  border-radius: 8px;
+}
+
+
+.Toastify__close-button {
+  color: white !important;
+  opacity: 1 !important;
+}
+
+.Toastify__close-button:hover {
+  color: #ff5722 !important; 
+}
